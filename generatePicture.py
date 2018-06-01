@@ -9,7 +9,7 @@ import random
 from captcha.image import ImageCaptcha
 from VertificationNetwork import IMAGE_HEIGHT ,IMAGE_WIDTH,MAX_CAPTCHA,CHAR_SET_LEN
 
-
+# captcha.image 介绍 http://www.spiderpy.cn/blog/detail/32
 # 本代码生成验证码图片
 number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
